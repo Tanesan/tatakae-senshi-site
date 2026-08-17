@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="WiTPaiyBSBFHsJdpKEiivpRP-PkYyW4hiNppIjCGaHQ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <title> は同意画面のアプリ名と完全一致させる（副題を付けると自動チェックの
+     名前照合が揺れる）。キャッチコピーは description / og:description 側に置く。 -->
+<title>戦え！剣士たち</title>
+<!-- Google の OAuth ブランディング自動チェックは、同意画面のアプリ名がホーム
+     ページ上にあるか／アプリの目的が説明されているかを機械的に判定する。
+     人向けのコピーだけだと拾えないことがあるため、name / description を
+     曖昧さのない形で明示し、JSON-LD でも同じ情報を持たせている。 -->
+<meta name="application-name" content="戦え！剣士たち">
+<meta name="apple-mobile-web-app-title" content="戦え！剣士たち">
+<meta name="description" content="戦え！剣士たち は、YouTube Live と連動する視聴者参加型のスマートフォン向けバトルゲーム（iOS）です。自分の剣士と必殺技を作り、ライブ配信中のボス戦に参加させます。視聴者はチャットに「いけ！（剣士の名前）」と入力してその剣士を配信に呼び出せます。">
+<meta property="og:site_name" content="戦え！剣士たち">
+<meta property="og:title" content="戦え！剣士たち">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tanesan.github.io/tatakae-senshi-site/">
+<meta property="og:description" content="戦え！剣士たち は、YouTube Live と連動する視聴者参加型のスマートフォン向けバトルゲーム（iOS）です。自分の剣士を作って配信のボス戦に参加させ、視聴者はチャットから剣士を呼び出せます。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "戦え！剣士たち",
+  "alternateName": "Tatakae! Kenshi-tachi",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "iOS",
+  "url": "https://tanesan.github.io/tatakae-senshi-site/",
+  "description": "戦え！剣士たち は、YouTube Live と連動する視聴者参加型のスマートフォン向けバトルゲームです。プレイヤーは自分の剣士キャラクターと必殺技を作り、ライブ配信中の大ボス戦に参加させます。視聴者はライブチャットに「いけ！（剣士の名前）」と入力するだけで、その剣士を配信画面に呼び出せます。任意のYouTubeチャンネル連携により、自分が送った召喚を自分の記録として残せます。",
+  "privacyPolicy": "https://tanesan.github.io/tatakae-senshi-site/privacy",
+  "termsOfService": "https://tanesan.github.io/tatakae-senshi-site/terms"
+}
+</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ffb22c'/><text x='50' y='72' font-size='58' text-anchor='middle'>⚔</text></svg>">
+<link rel="canonical" href="https://tanesan.github.io/tatakae-senshi-site/">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><div class="row">
+  <a class="word" href="index.html"><span class="mk">⚔</span><span>戦え！剣士たち</span></a>
+  <nav class="navlinks">
+    <a class="on" href="index.html">遊び方</a>
+    <a href="support/">サポート</a>
+    <a href="privacy/">プライバシー</a>
+    <a href="terms/">規約</a>
+  </nav>
+</div></div>
+
+<!-- ── cinematic hero ── -->
+<header class="hero">
+  <div class="bg" style="background-image:url('img/hero-wide.jpeg')"></div>
+  <div class="veil"></div>
+  <div class="inner">
+    <p class="kicker">YouTube Live 連動・視聴者参加型バトル</p>
+    <h1>戦え！剣士たち</h1>
+    <p class="lead">名前を呼ばれた剣士が、配信に走り込む。</p>
+    <p class="sub">自分だけの剣士をつくって、みんなで大ボスに挑むライブ・レイド。あなたの必殺技が、そのまま画面の中で暴れます。</p>
+    <span class="livechip"><span class="dot"></span>LIVE ｜ コメントで参戦できる番組</span>
+  </div>
+</header>
+
+<!-- ── what this app is ──
+     Google's OAuth branding check requires the homepage to state, in plain
+     text, what the app does and (for our sensitive scope) why it asks to see
+     the user's YouTube account. Keep this section crawlable and literal. -->
+<section class="section wrap">
+  <p class="kicker">このアプリについて</p>
+  <h2>「戦え！剣士たち」とは</h2>
+  <p class="lead">「戦え！剣士たち」は、YouTube Live と連動する視聴者参加型のスマートフォン向けバトルゲームです（iOS）。プレイヤーはアプリ内で自分だけの小さな剣士キャラクターと必殺技を作り、ライブ配信中の大ボス戦に参加させます。視聴者はライブチャットに「いけ！（剣士の名前）」と入力するだけで、その剣士を配信画面に呼び出せます。</p>
+  <p class="lead">アプリには任意の <b>YouTubeチャンネル連携</b> 機能があります。連携すると、自分がチャットで送った召喚が自分の記録として残り、よく呼んだ剣士のランキングを見られます。連携時に <span class="mono">youtube.readonly</span> の権限で <b>本人のチャンネルIDを1回だけ取得し、本人確認にのみ使用</b>します。チャンネルIDは保存せず照合用のハッシュのみを保存し、動画・再生履歴・登録チャンネルなどにはアクセスしません。連携は任意で、未連携でも全機能を利用でき、アプリ内からいつでも解除できます。詳しくは<a href="privacy/">プライバシーポリシー</a>をご覧ください。</p>
+</section>
+
+<!-- ── 3 steps, real screenshots ── -->
+<section class="section wrap">
+  <p class="kicker">はじめかた</p>
+  <h2>作って、名前をつけて、送り出すだけ。</h2>
+  <p class="lead">むずかしい操作はありません。アプリで剣士を用意したら、あとはコメントひとつで配信に登場します。</p>
+  <div class="steps3">
+    <div class="step">
+      <div class="phone"><img src="img/shot-boss.jpeg" alt="ボスに挑む剣士とコンボ表示" loading="lazy"></div>
+      <div class="num">STEP 1</div>
+      <h3>剣士をつくる</h3>
+      <p>見た目のパーツを選んで名前をつける。名前は世界にひとつだけ、早い者勝ちです。</p>
+    </div>
+    <div class="step">
+      <div class="phone"><img src="img/shot-receipt.jpeg" alt="領収書系スキルの演出" loading="lazy"></div>
+      <div class="num">STEP 2</div>
+      <h3>必殺技を書く</h3>
+      <p>「領収書をなくす」「急に定時退社する」——自由な一文でOK。書いた技が、そのまま小芝居になって発動します。</p>
+    </div>
+    <div class="step">
+      <div class="phone"><img src="img/shot-crit.jpeg" alt="クリティカルの大ダメージ演出" loading="lazy"></div>
+      <div class="num">STEP 3</div>
+      <h3>配信に送り出す</h3>
+      <p>出撃すると数秒で登場。勝ち負け・大ダメージ・MVP・称号が、そのまま戦績に刻まれていきます。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── wide showcase with callouts ── -->
+<section class="section showcase"><div class="wrap">
+  <p class="kicker">配信ではこう見える</p>
+  <h2>1体ずつ走り込み、必殺技を放って、次の人へ。</h2>
+  <p class="lead">大ボスのHPをみんなで削るボスレイド方式。連続で呼ぶほどコンボが伸び、撃破するとMVPが発表されます。</p>
+  <div class="frameWide"><img src="img/hero-wide.jpeg" alt="配信オーバーレイの全体像" loading="lazy"></div>
+  <div class="callouts">
+    <div class="callout"><b>みんなで連続コンボ</b><span>途切れさせずに呼び続けると演出が派手に。ボスの反撃で途切れることも。</span></div>
+    <div class="callout"><b>必殺技の実況ロワーサード</b><span>技名・小道具・ダメージが、登場中の剣士と同期して表示されます。</span></div>
+    <div class="callout"><b>本日のMVP / 推し召喚ランキング</b><span>活躍した剣士と、よく呼ばれた剣士がその場で表彰されます。</span></div>
+  </div>
+</div></section>
+
+<!-- ── viewer participation ── -->
+<section class="section wrap">
+  <div class="viewer">
+    <div>
+      <p class="kicker" style="color:var(--purple)">見ている人へ</p>
+      <p class="big">コメントで「いけ！＋なまえ」と打つだけ。</p>
+      <p>その剣士が配信に走り込んで、大ボスに必殺技を放ちます。チケットは要りません。みんなで呼べば呼ぶほど、コンボがつながって盛り上がります。</p>
+    </div>
+    <div class="chatbox">
+      <div class="chatline"><span class="u">なな</span><span class="cmd">いけ！ちびナイト</span></div>
+      <div class="chatline"><span class="u">こう</span><span class="cmd">帰宅の勇者たのむ！</span></div>
+      <div class="chatline me"><span class="u">あなた</span><span class="cmd">いけ！わたしの剣士</span></div>
+      <div class="chatline"><span class="u">みか</span><span class="cmd">いけ！領収書マスター</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── coins / fair play ── -->
+<section class="section wrap">
+  <p class="kicker">コインとショップ</p>
+  <h2>遊ぶほど貯まる。強さは、買えない。</h2>
+  <p class="lead">勝利・MVP・ミッション達成・実績解除でコインが貯まり、ショップで使えます。</p>
+  <div class="facts">
+    <div class="fact"><b>出撃チケット</b><span>配信に参加する回数を増やす。</span></div>
+    <div class="fact"><b>見た目パーツ</b><span>王冠・天使の輪などの特別な装飾。</span></div>
+    <div class="fact"><b>保存枠</b><span>作れる剣士の数を増やす。</span></div>
+  </div>
+  <p style="margin:34px auto 0" class="pull">コインで買えるのは出撃回数・見た目・保存枠だけ。<em>勝率はお金で上がりません。</em></p>
+</section>
+
+<footer class="site"><div class="row">
+  <div>© 2026 戦え！剣士たち（LiveQuest）　任天堂その他いかなる企業とも関係ありません。</div>
+  <div class="fnav">
+    <a href="support/">サポート</a>
+    <a href="privacy/">プライバシーポリシー</a>
+    <a href="terms/">利用規約</a>
+  </div>
+</div></footer>
+</body>
+</html>

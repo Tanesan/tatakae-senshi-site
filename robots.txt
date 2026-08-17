@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tanesan.github.io/tatakae-senshi-site/sitemap.xml
